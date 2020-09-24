@@ -21,7 +21,7 @@ public class Bot {
 		Mono<Void> execute(MessageCreateEvent event);
 	}
 	
-	private static final String token = "NzU4MDY4ODY4NjAxMzQ4MTI2.X2pkpg.rngGAmZSmrsRlyRFx-ZAa5fbiQg";
+	private static final String token = Token.getToken();
 	
 	private static final Map<String, Command> commands = new HashMap<>();
 	
