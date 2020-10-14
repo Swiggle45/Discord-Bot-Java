@@ -75,7 +75,7 @@ public class Bot {
 			Random rand = new Random();
 			String sub = s.substring(s.indexOf('d') + 1);
 			if (sub.contains("shannon")) {
-				answer = "You rolled a ";
+				answer = "You rolled an ";
 				int a = rand.nextInt(7);
 				switch(a) {
 				case 0: return answer + "s";
